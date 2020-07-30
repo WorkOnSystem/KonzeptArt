@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("src/bg.jpg");
+}
+
+.content {
+  margin: 5rem;
+}
+
+.bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #14213d;
+  border-bottom: 1px solid #14213d;
+}
+
+.bar a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin: .5rem;
+  color: black;
+  padding: 1rem;
+}
+
+.bar a:hover {
+  color: white;
+}
+
+.evt-close {
+  background-color: #ff6059;
+}
+
+.evt-mini {
+  background-color: #ffbe41;
+}
+
+.evt-large {
+  background-color: #28ca4b;
+}
+
+.tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: .5rem;
+}
+
+.tabs .tab {
+  background-color: lightgrey;
+  height: 100%;
+  padding: .5rem;
+  margin-right: .5rem;
+  border-radius: .5rem;
+}
+/*# sourceMappingURL=main.css.map */

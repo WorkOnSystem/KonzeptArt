@@ -1,0 +1,67 @@
+$font-color-head: rgba(0, 0, 0, 1);
+$font-color-text: rgba(20, 33, 61, 1);
+$orange-web: rgba(252, 163, 17, 1);
+$platinum: rgba(229, 229, 229, 1);
+$main-bg: rgba(255, 255, 255, 1);
+
+$large: rgb(40,202,75);
+$mini: rgb(255,190,65);
+$close: rgb(255,96,89);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("src/bg.jpg");
+}
+
+.content {
+    margin: 5rem;
+
+}
+
+.bar {
+    display: flex;
+    background-color: $font-color-text;
+    border-bottom: 1px solid $font-color-text;
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        margin: .5rem;
+        color: $font-color-head;
+        padding: 1rem;
+    }
+    a:hover {
+        color: white;
+    }
+}
+.evt-close {background-color: $close;}
+.evt-mini {background-color: $mini;}
+.evt-large {background-color: $large;}
+
+
+
+
+.tabs {
+    display: flex;
+    padding: .5rem;
+    .tab {
+        background-color: lightgrey;
+        height: 100%;
+        padding: .5rem;
+        margin-right: .5rem;
+        border-radius: .5rem;
+    }
+}
